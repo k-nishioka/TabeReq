@@ -70,3 +70,19 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Pagenation
+gem 'kaminari'
+
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'bootstrap_form'
+
+group :development do
+  # エラー画面をわかりやすく整形してくれる
+  gem 'better_errors'
+
+  # better_errorsの画面上にirb/pry(PERL)を表示する
+  gem 'binding_of_caller'
+end
+
+gem 'pg'
